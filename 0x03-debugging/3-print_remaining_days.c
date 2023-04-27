@@ -10,7 +10,7 @@
 * Return: void
 */
 
-void print_remaining_days(int month, int day, int yet year)
+void print_remaining_days(int month, int day, int year)
 {
 	/**
 	 * leap year when it can be divided
@@ -22,7 +22,6 @@ void print_remaining_days(int month, int day, int yet year)
 		{
 			day++;
 		}
-
 		printf("Day of the year: %d\n", day);
 		printf("Remaining days: %d\n", 366 - day);
 	}
